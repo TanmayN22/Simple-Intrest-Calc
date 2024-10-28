@@ -36,7 +36,7 @@ class _TodoScreenState extends State<TodoScreen> {
       content: TextField(controller: controller),
       actions: [
         MaterialButton(
-          child: Text('Add'),
+          child: const Text('Add'),
           onPressed: () {
             if(controller.text.isNotEmpty) {
               setState(() {
